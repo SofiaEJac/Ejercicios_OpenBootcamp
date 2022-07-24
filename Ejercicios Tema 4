@@ -1,0 +1,30 @@
+IF:
+numeroIf = int(input("Ingrese numero:"))
+
+if numeroIf > 0:
+    print("positivo")
+if numeroIf == 0:
+    print("0")
+if numeroIf < 0:
+    print("negativo")
+
+WHILE:
+numeroWhile = int(input("Ingrese numero:"))
+while numeroWhile < 3:
+    numeroWhile +=1
+    print(numeroWhile)
+   
+DO WHILE:
+numeroWhile = int(input("Ingrese numero:"))
+do { 
+   print(numeroWhile)
+   numeroWhile +=1
+     }
+ while(numerWhile < 3);
+
+FOR:
+numeroFor= 0
+for numeroFor in range(3):
+    numeroFor += 1
+    print(numeroFor)
+   
