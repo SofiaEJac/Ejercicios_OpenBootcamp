@@ -5,14 +5,12 @@ if Dueno[0] > 26000000:
     
 EJERCICIO 2:  
 Dueno2= [23546987, "Maria", "Perez", 4789689, "Pueyrredon 811"]
-DNI = Dueno2[0]
-apellido = Dueno2[2]
 for i in Dueno2:
-    if i == DNI:
+    if i == Dueno2[0]:
         continue
-    elif i == apellido:
+    elif i == Dueno2[2]:
         continue
-    print(i)  
+    print(i)
 
 EJERCICIO 3:
 Perro = [13,  "Puppy",  "12/12/2012" , "Macho", 123]
