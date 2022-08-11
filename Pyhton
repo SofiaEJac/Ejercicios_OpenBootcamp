@@ -1,0 +1,55 @@
+EJERCICIO 1:
+Dueno = [28957346,  "Juan",  "Perez", 4789689,  "Belgrano 101"]
+if Dueno[0] > 26000000:
+    print(Dueno[3])
+    
+EJERCICIO 2:  
+Dueno2= [23546987, "Maria", "Perez", 4789689, "Pueyrredon 811"]
+DNI = Dueno2[0]
+apellido = Dueno2[2]
+for i in Dueno2:
+    if i == DNI:
+        continue
+    elif i == apellido:
+        continue
+    print(i)  
+
+EJERCICIO 3:
+Perro = [13,  "Puppy",  "12/12/2012" , "Macho", 123]
+Perro[2] = "13/12/2012"
+Perro[4] = "28957346"
+print(Perro)
+
+EJERCICIO 4:
+Perro2 = [14,  "Fido",  "12/12/2012" , "Macho", 23546987]
+for i in range(1):
+    Perro2.reverse()
+    print(Perro2)
+
+EJERCICIO 5:
+Historial = (2350, 5960, 23000, 1000, 8900)
+Total = sum(Historial) 
+print(Total)
+
+if Total < 30000:
+    print(Total)
+else:
+     print("Gastos por encima de lo presupuestado")
+     
+EJERCICIO 6:
+def calculo():
+    for i in Historial2:
+        if i < 5000:
+            print(i)            
+calculo()
+
+EJERCICIO 7:
+Historial3 = (9530, 4120, 4580, 1500, 890,7516,426)
+Lennon = int(sum(Historial3) / len(Historial3))
+print(Lennon)
+
+if Lennon > 4500:
+    print("Se ha excedido del gasto promedio para su mascota")
+    
+ EJERCICIO 8:
+ 
